@@ -20,7 +20,8 @@
 // }
 
 //Вариант 2
-// char[] digits = numSintezator.Next(10,100).ToString().ToCharArray();
+ char[] digits = numSintezator.Next(10,100).ToString().ToCharArray();
+ digits.Length
 // Console.WriteLine(digits);
 // int digit1 = (int)digits[0]-48;
 // int digit2 = (int)digits[1]-48;
